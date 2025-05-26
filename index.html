@@ -8,65 +8,73 @@
 </head>
 <body>
     <header class="header">
-        <img src="https://img.freepik.com/vector-premium/logotipo-comida-cuchara-tenedor-sonrisa-ilustracion-diseno-comida-deliciosa-lengua-saliva_207371-61.jpg?semt=ais_hybrid&w=740" 
-             alt="Logo Nilo" 
-             class="logo">
-        <div class="nombre-logo">Soy Nilo y este es mi plato favorito</div>
+        <figure class="header__logo-container">
+            <img src="https://img.freepik.com/vector-premium/logotipo-comida-cuchara-tenedor-sonrisa-ilustracion-diseno-comida-deliciosa-lengua-saliva_207371-61.jpg?semt=ais_hybrid&w=740" 
+                 alt="Logo Nilo" 
+                 class="header__logo">
+        </figure>
+        <h1 class="header__title">Soy Nilo y este es mi plato favorito</h1>
     </header>
 
-    <main class="contenedor">
-        <h1>🍴 Lomo Saltado Peruano</h1>
+    <main class="main-container">
+        <h2 class="main-title">Lomo Saltado Peruano</h2>
         
-        <div class="galeria">
-            <img src="https://i.ytimg.com/vi/sWXRJbGi6yQ/maxresdefault.jpg" 
-                 alt="Lomo saltado servido">
-            <img src="https://mojo.generalmills.com/api/public/content/5g17rSY4GkOQ_zbcA3exqA_gmi_hi_res_jpeg.jpeg?v=f524f7aa&t=16e3ce250f244648bef28c5949fb99ff" 
-                 alt="Preparación de lomo saltado">
+        <div class="gallery">
+            <figure class="gallery__item">
+                <img src="https://i.ytimg.com/vi/sWXRJbGi6yQ/maxresdefault.jpg" 
+                     alt="Lomo saltado servido"
+                     class="gallery__image">
+            </figure>
+            <figure class="gallery__item">
+                <img src="https://mojo.generalmills.com/api/public/content/5g17rSY4GkOQ_zbcA3exqA_gmi_hi_res_jpeg.jpeg?v=f524f7aa&t=16e3ce250f244648bef28c5949fb99ff" 
+                     alt="Preparación de lomo saltado"
+                     class="gallery__image">
+            </figure>
         </div>
 
-        <div class="grid-principal">
-            <section class="seccion">
-                <h2>🥩 Ingredientes</h2>
-                <ul>
-                    <li>500g de lomo de res</li>
-                    <li>2 cebollas rojas grandes</li>
-                    <li>3 tomates perita</li>
-                    <li>Papas fritas crujientes</li>
-                    <li>50ml de salsa de soya</li>
-                    <li>1 ají amarillo fresco</li>
-                    <li>2 dientes de ajo</li>
-                    <li>Perejil picado</li>
+        <div class="grid-container">
+            <section class="card ingredients">
+                <h3 class="card__title">Ingredientes</h3>
+                <ul class="card__list">
+                    <li class="card__list-item">500g de lomo de res</li>
+                    <li class="card__list-item">2 cebollas rojas grandes</li>
+                    <li class="card__list-item">3 tomates perita</li>
+                    <li class="card__list-item">Papas fritas crujientes</li>
+                    <li class="card__list-item">50ml de salsa de soya</li>
+                    <li class="card__list-item">1 ají amarillo fresco</li>
+                    <li class="card__list-item">2 dientes de ajo</li>
+                    <li class="card__list-item">Perejil picado</li>
                 </ul>
             </section>
 
-            <section class="seccion">
-                <h2>👩🍳 Preparación</h2>
-                <ol>
-                    <li>Cortar la carne en tiras gruesas</li>
-                    <li>Marinar con ajo y soya por 15 min</li>
-                    <li>Saltear a fuego alto la carne</li>
-                    <li>Añadir cebolla en gajos y ají</li>
-                    <li>Incorporar tomate cortado en octavos</li>
-                    <li>Mezclar con las papas fritas</li>
-                    <li>Decorar con perejil fresco</li>
+            <section class="card preparation">
+                <h3 class="card__title">Preparación</h3>
+                <ol class="card__list">
+                    <li class="card__list-item">Cortar la carne en tiras gruesas</li>
+                    <li class="card__list-item">Marinar con ajo y soya por 15 min</li>
+                    <li class="card__list-item">Saltear a fuego alto la carne</li>
+                    <li class="card__list-item">Añadir cebolla en gajos y ají</li>
+                    <li class="card__list-item">Incorporar tomate cortado en octavos</li>
+                    <li class="card__list-item">Mezclar con las papas fritas</li>
+                    <li class="card__list-item">Decorar con perejil fresco</li>
                 </ol>
             </section>
         </div>
-        <br>
-        <section class="seccion">
-            <h2>📌 Tips importantes</h2>
-            <ul>
-                <li>Usar sartén bien caliente para el salteado</li>
-                <li>Cocinar rápidamente para mantener jugosidad</li>
-                <li>Servir inmediatamente con arroz blanco</li>
+
+        <section class="card tips">
+            <h3 class="card__title">Tips importantes</h3>
+            <ul class="card__list">
+                <li class="card__list-item">Usar sartén bien caliente para el salteado</li>
+                <li class="card__list-item">Cocinar rápidamente para mantener jugosidad</li>
+                <li class="card__list-item">Servir inmediatamente con arroz blanco</li>
             </ul>
         </section>
     </main>
 
     <footer class="footer">
-        <h3>Nilo Uel Curo Vila</h3>
-        <p>¿Dudas o sugerencias? Escríbeme a:<br>
-        <a style="color: #ff9f9f;">+51 901954418</a></p>
+        <h4 class="footer__title">Nilo Uel Curo Vila</h4>
+        <p class="footer__contact">¿Dudas o sugerencias? Escríbeme a:<br>
+        <a href="tel:+51901954418" class="footer__link">+51 901954418</a></p>
     </footer>
 </body>
 </html>
